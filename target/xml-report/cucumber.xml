@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="29.004" tests="2" skipped="0" failures="2" errors="0">
+<testcase classname="hooks_test" name="TC_01_test" time="12.626">
+<failure type="java.lang.AssertionError">
+<![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.LoginStepDefinitions.verify_the_next_page_url_contains_login_keyword(LoginStepDefinitions.java:47)
+	at ✽.verify the next page url contains login keyword(file:///C:/Users/pc/IdeaProjects/New_Cucumber/./src/test/resources/features/day26_failed_test_cases.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user is on "https://www.bluerentalcars.com/login" page................passed
+And user enters customer_email and customer_password........................passed
+Then verify the next page url contains login keyword........................failed
+]]></system-out>
+</testcase>
+<testcase classname="hooks_test" name="TC_01_test" time="15.613">
+<failure type="java.lang.AssertionError">
+<![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.LoginStepDefinitions.verify_the_next_page_url_contains_login_keyword(LoginStepDefinitions.java:47)
+	at ✽.verify the next page url contains login keyword(file:///C:/Users/pc/IdeaProjects/New_Cucumber/./src/test/resources/features/day26_failed_test_cases.feature:15)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user is on "https://www.bluerentalcars.com/login" page................passed
+And user enters customer_email and customer_password........................passed
+Then verify the next page url contains login keyword........................failed
+]]></system-out>
+</testcase>
+</testsuite>
